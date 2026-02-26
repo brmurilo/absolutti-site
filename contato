@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+        
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K57XXMJR51"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-K57XXMJR51');
+</script>
+
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <meta name="description" content=""/>
+        <meta name="author" content=""/>
+        <title>ABSOLUTTI Tecnologia - Outsourcing e Consultoria de TI</title>
+        <meta name="description" content="Outsourcing de TI, consultoria técnica e soluções digitais personalizadas para pequenas e médias empresas. Atendemos 100% remoto ou presencial em Belo Horizonte e Região."/>
+
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico"/>
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet"/>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet"/>
+    </head>
+<!-- Botão flutuante do WhatsApp -->
+<body>
+<a href="https://wa.me/5531973193382" 
+   class="whatsapp-float" 
+   target="_blank" 
+   data-bs-toggle="tooltip" 
+   data-bs-placement="left" 
+   title="Fale conosco no WhatsApp">
+  <i class="bi bi-whatsapp fs-3"></i>
+</a>
+
+
+    
+<section class="py-5 bg-light" id="contato">
+    <div class="container px-5 my-5">
+        <div class="text-center mb-5">
+            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
+            <h2 class="fw-bolder">Escolha como prefere falar conosco</h2>
+            <p class="lead mb-0">Estamos prontos para atender sua empresa</p>
+        </div>
+        
+        <div class="row gx-5 justify-content-center">
+            <div class="col-lg-4 mb-5">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body p-4 text-center">
+                        <i class="bi bi-whatsapp text-success fs-1 mb-3"></i>
+                        <h3 class="h4 fw-bolder">WhatsApp</h3>
+                        <p class="text-muted">Resposta imediata em horário comercial.</p>
+                        <a class="btn btn-success w-100" href="https://wa.me/5531973193382" target="_blank">
+                            Iniciar Conversa
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-5">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body p-4 text-center">
+                        <i class="bi bi-telephone text-primary fs-1 mb-3"></i>
+                        <h3 class="h4 fw-bolder">Telefone</h3>
+                        <p class="text-muted">Fale diretamente com um especialista.</p>
+                        <a class="btn btn-primary w-100" href="tel:+5531973193382">
+                            (31) 97319-3382
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-8">
+                <div class="bg-white rounded-3 shadow p-4 p-md-5">
+                    <h3 class="text-center mb-4">Envie uma mensagem</h3>
+                    <form id="contactForm">
+                        <div class="row mb-3">
+                            <div class="col-md-6 mb-3 mb-md-0">
+                                <label class="form-label" for="name">Nome completo</label>
+                                <input class="form-control" id="name" type="text" placeholder="Seu nome..." required />
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label" for="email">E-mail corporativo</label>
+                                <input class="form-control" id="email" type="email" placeholder="nome@empresa.com.br" required />
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="subject">Assunto</label>
+                            <select class="form-select" id="subject">
+                                <option value="suporte">Suporte Técnico</option>
+                                <option value="consultoria">Consultoria / Projetos</option>
+                                <option value="parceria">Parcerias</option>
+                                <option value="outros">Outros</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="message">Como podemos ajudar?</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Descreva brevemente sua necessidade..." required></textarea>
+                        </div>
+                        <div class="d-grid">
+                            <button class="btn btn-primary btn-lg" id="submitButton" type="submit">Enviar Solicitação</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+        
+       
+<script>
+  const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+  const tooltipList = [...tooltipTriggerList].map(el => new bootstrap.Tooltip(el));
+</script>
+</body>
+</html>
