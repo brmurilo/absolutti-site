@@ -1,4 +1,5 @@
 # Configurações Gerais da AbsolutTI
+# -----------------------------------------------------------------------------
 title: AbsolutTI - Outsourcing e Consultoria de TI
 email: suporte@absolutti.com
 description: >-
@@ -6,17 +7,32 @@ description: >-
 baseurl: "" 
 url: "https://absolutti.com"
 
-# Configurações de Build
+# Configurações de Idioma e Localização (Essencial para SEO Brasil)
+# -----------------------------------------------------------------------------
+lang: pt-BR
+locale: pt-BR
+timezone: America/Sao_Paulo
+
+# Configurações de Build e Plugins
+# -----------------------------------------------------------------------------
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
 
+# Configuração de Markdown (Garante suporte total às tabelas dos seus textos)
+# -----------------------------------------------------------------------------
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 # Organização do Menu (Evita duplicação no cabeçalho)
+# -----------------------------------------------------------------------------
 header_pages: []
 
 # Itens ignorados no processamento
+# -----------------------------------------------------------------------------
 exclude:
   - .sass-cache/
   - .jekyll-cache/
