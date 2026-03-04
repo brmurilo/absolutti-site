@@ -1,0 +1,30 @@
+# Configurações Gerais da AbsolutTI
+title: AbsolutTI - Outsourcing e Consultoria de TI
+email: suporte@absolutti.com
+description: >-
+  Suporte técnico em TI, HelpDesk especializado em BH e região com monitoramento proativo Zabbix/Grafana.
+baseurl: "" 
+url: "https://absolutti.com"
+
+# Configurações de Build
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Organização do Menu (Evita duplicação no cabeçalho)
+header_pages: []
+
+# Itens ignorados no processamento
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

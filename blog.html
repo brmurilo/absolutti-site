@@ -1,0 +1,13 @@
+---
+layout: page
+title: Blog Técnico AbsolutTI
+permalink: /blog/
+---
+
+Aqui você encontra artigos sobre monitoramento, segurança e infraestrutura.
+
+{% for post in site.posts %}
+  ### [{{ post.title }}]({{ post.url }})
+  *Postado em {{ post.date | date: "%d/%m/%Y" }}*
+  {{ post.excerpt }}
+{% endfor %}
